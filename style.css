@@ -34,6 +34,7 @@ body {
     display: flex;
     font-size: 2.5em;
     gap: 25px;
+    margin-top: 10px;
   }
   a:link {
     color: black;
