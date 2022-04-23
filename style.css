@@ -30,12 +30,6 @@ body {
     font-family: 'Bungee Shade';
   }
 
-  #line {
-    height: 0.1em;
-    width: 500px;
-    margin: 15px 0;
-    background-color: black;
-  }
   .icons {
     display: flex;
     font-size: 2.5em;
