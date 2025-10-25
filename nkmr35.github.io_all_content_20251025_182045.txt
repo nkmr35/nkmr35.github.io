@@ -1,0 +1,845 @@
+HTMLとCSSファイルの内容統合
+ディレクトリ: /Users/nkmr35/Downloads/nkmr35.github.io
+実行日時: Sat Oct 25 18:20:45 JST 2025
+==========================================
+
+=== index.html ===
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hiroto Nakamura</title>
+  <meta name="author" content="Hiroto Nakamura">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" id="favicon">
+</head>
+<body>
+  <div class="container">
+    <div>
+        <h1>nkmr35.github.io</h1>
+        <h2>Hiroto Nakamura</h2>
+        <h2>IT Consultant, Software Engineer</h2>
+      <div class="icons">
+        <a class="icon" href="https://twitter.com/nkmr35_"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/nkmr35"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/hiroto-nakamura-6895a8236/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://note.com/nkmr35"><i class="fa-solid fa-pen"></i></a>
+        <a href="https://qiita.com/nkmr35"><i class="fa-solid fa-laptop-code"></i></a>
+        <a href="mailto:35nkmr@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+
+      <!-- Legal links -->
+      <div class="legal-links" style="margin-top:12px;font-size:1.1em;">
+        <a href="privacy.html">プライバシーポリシー</a>
+        <span>・</span>
+        <a href="terms.html">利用規約</a>
+        <span>・</span>
+        <a href="support.html">サポート</a>
+        <br>
+        <a href="privacy_en.html">Privacy Policy</a>
+        <span>・</span>
+        <a href="terms_en.html">Terms of Use</a>
+        <span>・</span>
+        <a href="support_en.html">Support</a>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
+
+==========================================
+
+=== privacy.html ===
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー</title>
+<link rel="stylesheet" href="legal.css">
+</head>
+<body>
+<header class="site-header">
+<nav class="site-nav">
+<a href="index.html">ホーム</a>
+<a href="privacy.html">プライバシーポリシー</a>
+<a href="terms.html">利用規約</a>
+<a href="support.html">サポート</a>
+<a href="privacy_en.html">English</a>
+</nav>
+</header>
+
+<main class="container">
+<h1>プライバシーポリシー</h1>
+<p class="summary">
+  更新日: 2025-10-23
+</p>
+
+<p>本アプリのプライバシーポリシーおよび利用規約は、Apple の標準EULA（<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>）を拡張するものです。</p>
+
+<ul>
+  <li>本ポリシーに記載がなくEULAに記載がある事項は、EULAを優先します。</li>
+  <li>本ポリシーとEULAに矛盾がある場合は、本ポリシーを優先します。</li>
+</ul>
+
+<p>当社はユーザーのプライバシーを重視し、アプリ利用時に提供されるデータの保護に取り組んでいます。本ポリシーは、当社がどのように情報を収集・利用・共有・保護するかを説明するものです。本サービスのご利用前に必ずお読みください。</p>
+
+<p><strong>適用範囲:</strong> 本ポリシーは当社アプリにのみ適用され、アプリ内で共有・収集される情報に関して有効です。オフラインでの収集や、SNSやメール等のアプリ外チャネルで直接やり取りする場合には適用されません。</p>
+
+<h2>個人情報について</h2>
+
+<ul>
+  <li>下記「RevenueCatの利用」に記載する課金・サブスクリプション管理のための最小限のデータ処理を除き、当社は氏名・性別・メールアドレス・電話番号・住所等の個人情報を収集しません。</li>
+  <li>当社が上記のような連絡先情報の提供を求めることはありません。</li>
+  <li>アプリ内のタスク・タイマー等のデータは当社サーバーに保存されません。</li>
+</ul>
+
+<p><strong>アプリ内データの保存先:</strong></p>
+
+<ul>
+  <li>アプリ内データは端末内に保存され、当社はアクセスできません。</li>
+  <li>ユーザーがiCloud同期／バックアップを有効にした場合、そのデータはAppleのiCloudに保存され、ユーザーのiCloud容量を消費します。当社はこれにアクセスできません。</li>
+  <li>データの管理はユーザーご自身の責任となります。端末故障等によるデータ損失は当社では復旧できません。</li>
+</ul>
+
+<p><strong>重要:</strong> アプリで生成されるデータはApple ID/iTunes IDに紐づきます。Apple IDを切り替え、かつiCloud同期を有効にしていない場合、Appleのセキュリティポリシーによりアプリ内データが削除されることがあります（購入・サブスクリプションには影響しません）。</p>
+
+<h2>RevenueCatの利用（アプリ内課金・サブスクリプション管理）</h2>
+
+<p>当社は、アプリ内課金・サブスクリプション（購入検証・復元・権限付与等）を提供する目的で、第三者サービスであるRevenueCatを使用します。ユーザーデータが端末外へ送信されるのは、この目的に必要な最小限の範囲に限られます。</p>
+
+<h3>RevenueCatが処理するデータの種類（例）:</h3>
+
+<ul>
+  <li>匿名のApp User ID（自動生成・擬名化。氏名・メール・電話番号等は付与しません）</li>
+  <li>Appleのレシートおよび取引メタデータ（製品ID、購入日時、サブスクの状態［有効・失効・解約］、トライアルやグレース期間、価格・通貨等）</li>
+  <li>サービス運用・不正防止に必要なアプリ／端末情報（アプリ版数、OS／プラットフォーム、ロケール・地域）およびIPアドレス（地域判定やセキュリティ目的でRevenueCat側で処理される場合があります）</li>
+</ul>
+
+<p>決済処理はAppleが担い、当社はクレジットカード情報やApple IDのメール等にはアクセスしません。</p>
+
+<h3>利用目的:</h3>
+
+<p>購入の提供・検証、権利付与、購入の復元、詐欺防止、オファーや価格のローカライズ、購入サポート対応</p>
+
+<h3>法的根拠（該当法域において）:</h3>
+
+<ul>
+  <li>契約の履行（購入された機能の提供）</li>
+  <li>法的義務の遵守（税務・記録保存等）</li>
+  <li>正当な利益（不正防止、サービスの安定運用）</li>
+</ul>
+
+<h3>共有先:</h3>
+
+<ul>
+  <li>Apple（App Store）およびRevenueCatが、サービス提供のための受託者としてデータを処理します。広告ネットワークへの提供やターゲティング広告目的での利用は行いません。</li>
+  <li>RevenueCatのプライバシーポリシー: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></li>
+</ul>
+
+<h3>保存期間:</h3>
+
+<p>RevenueCatはサービス提供および法令遵守に必要な期間、購入・権利履歴を保持します。</p>
+
+<p>アプリ削除ではサブスクリプションは解約されず、Apple/RevenueCat側の購入記録も削除されません。サブスクリプションの管理・解約は <a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a> から行えます。</p>
+
+<h3>選択肢・削除:</h3>
+
+<ul>
+  <li>上記リンクよりサブスクリプションを管理・解約できます。</li>
+  <li>RevenueCatで処理される購入データの削除をご希望の場合は当社までご連絡ください。削除により、過去購入の復元ができなくなる場合があります。</li>
+</ul>
+
+<h2>収集するデータの種類（要約）:</h2>
+
+<p>上記のRevenueCatにおける購入・サブスクリプション関連のデータ処理以外に、当社サーバーでユーザーデータを収集・保存することはありません。</p>
+
+<h2>データの利用:</h2>
+
+<ul>
+  <li>RevenueCat経由のデータは、購入機能の提供・検証・復元、サポート、不正防止のためのみに利用します。</li>
+  <li>広告目的や、他社アプリ・サイト横断のトラッキングには利用しません。</li>
+</ul>
+
+<h2>データの共有と保護:</h2>
+
+<ul>
+  <li>法令で許容・要求される場合を除き、ユーザー同意なしに第三者へ個人情報を共有しません。</li>
+  <li>RevenueCatやAppleは、サービス提供に必要な範囲でデータを処理します。当社は合理的な安全管理措置を講じます。</li>
+</ul>
+
+<p><strong>安全管理:</strong> 不正アクセス、開示、濫用からデータを保護するために合理的な対策を講じます。</p>
+
+<h2>ユーザーの権利:</h2>
+
+<ul>
+  <li>個人情報へのアクセス・訂正・削除・処理の制限を求める権利があります。</li>
+  <li>現時点では、RevenueCatによる購入関連を除き、当社で個人情報の収集は行っていません。将来収集する場合には、いつでもこれらの権利を行使できます。</li>
+</ul>
+
+<h2>データの削除方法:</h2>
+
+<ul>
+  <li>端末ローカルのデータはアプリのアンインストールで削除できます。</li>
+  <li>iCloudのデータは、アプリ内「統計ページ右上… ＞ データをクリア ＞ すべて削除」または iOSの設定 ＞ Apple ID/iCloud ＞ ストレージ から対象データを削除できます。</li>
+  <li>Apple/RevenueCatに保存される購入記録は、アプリのアンインストールでは消去されません。RevenueCatでの削除をご希望の場合は当社までご連絡ください。サブスクリプションの管理・解約: <a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a></li>
+</ul>
+
+<h2>お問い合わせ:</h2>
+
+<p>本ポリシーに関するご質問・ご提案がございましたら当社までご連絡ください。</p>
+
+<p>本ポリシーは、法令や事業内容の変更に応じて更新される場合があります。最新のポリシーはアプリ内または当社サイトに掲載しますので、定期的なご確認をお願いします。</p>
+
+</main>
+
+<footer class="site-footer">
+<small>
+最終更新日: 2025-10-23
+</small>
+</footer>
+</body>
+</html>
+
+==========================================
+
+=== privacy_en.html ===
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title>
+<link rel="stylesheet" href="legal.css">
+</head>
+<body>
+<header class="site-header">
+<nav class="site-nav">
+<a href="index.html">Home</a>
+<a href="privacy.html">日本語</a>
+<a href="privacy_en.html">Privacy Policy</a>
+<a href="terms_en.html">Terms of Use</a>
+<a href="support_en.html">Support</a>
+</nav>
+</header>
+
+<main class="container">
+<h1>Privacy Policy</h1>
+<p class="summary">
+  Update time: 2025-10-23
+</p>
+
+<p>The Privacy Policy and Terms of Use are extended from Apple's standard EULA (<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>)</p>
+
+<p>This means:</p>
+<ul>
+  <li>If there is any content not mentioned in this clause, but mentioned in the EULA, the EULA shall prevail.</li>
+  <li>If there is any conflict between these Terms and Conditions and the EULA, these Terms and Conditions shall prevail.</li>
+</ul>
+
+<p>We value your privacy and are committed to protecting the data you provide when using our apps. This Privacy Policy explains how we collect, use, share, and protect your personal information. Please read this Privacy Policy carefully before using our services.</p>
+
+<p>This Privacy Policy applies only to our App and is effective for visitors to our App with respect to the information shared and/or collected in our App. This policy does not apply to any information collected offline or through channels other than our App, nor does it apply to situations where you communicate with us directly through social media or email.</p>
+
+<h2>About Personal Information</h2>
+
+<ul>
+  <li>Except for limited purchase/subscription data processed via our third‑party provider RevenueCat (see "Use of RevenueCat" below), we do not collect your personal information (such as name, gender, email address, mobile phone number, address, etc.).</li>
+  <li>We will not ask you to provide personal contact information (such as name, gender, email address, mobile phone number, address, etc.).</li>
+  <li>We do not store your in‑app content data on our servers.</li>
+  <li>Your in‑app data is saved on your device and we have no access to it.</li>
+  <li>If you enable iCloud synchronization/backup, your data will be stored in Apple's iCloud services and will consume your iCloud storage. We do not have access to this data.</li>
+  <li>You have 100% control over your data and you are responsible for your data. If your device fails, we cannot help recover your local data.</li>
+</ul>
+
+<p><strong>Important reminder:</strong> To protect your privacy, data generated within the App is tied to your Apple ID/iTunes ID. If you switch Apple IDs and do not enable iCloud synchronization, your in‑app data may be automatically deleted by Apple's security policy. Purchases and subscriptions are not affected.</p>
+
+<h2>Use of RevenueCat (in‑app purchases and subscriptions)</h2>
+
+<p>We use RevenueCat solely to provide and manage in‑app purchases and subscriptions (including entitlement verification and restore). This is the only case where limited data leaves your device for processing.</p>
+
+<h3>Categories of data processed by RevenueCat:</h3>
+
+<ul>
+  <li>An automatically generated, pseudonymous App User ID (we do not attach your name, email, or phone number).</li>
+  <li>Apple App Store receipt and transaction metadata: product identifiers (SKUs), purchase dates, subscription status (active/expired/canceled), trial/grace period information, and price/currency as provided by Apple.</li>
+  <li>Basic app/device/context data for service operation and fraud prevention: app version, OS/platform, locale/region, and IP address (the latter may be processed by RevenueCat's servers to derive region and for security).</li>
+</ul>
+
+<p>We do not receive your payment card details or your Apple ID email; payments are processed by Apple.</p>
+
+<h3>Purpose of processing:</h3>
+
+<p>To deliver and verify purchases, manage entitlements, restore purchases, prevent fraud/abuse, localize offers/prices, provide customer support related to purchases.</p>
+
+<h3>Legal bases (where applicable):</h3>
+
+<ul>
+  <li>Performance of a contract (to provide the purchased service/features).</li>
+  <li>Compliance with legal obligations (e.g., tax and recordkeeping).</li>
+  <li>Our legitimate interests (e.g., fraud prevention and service reliability).</li>
+</ul>
+
+<h3>Data recipients and sharing:</h3>
+
+<ul>
+  <li>Apple (App Store infrastructure) and RevenueCat act as service providers to process purchases/subscriptions.</li>
+  <li>We do not share your data with advertising networks and do not use it for targeted advertising.</li>
+  <li>For details, please see RevenueCat's Privacy Policy: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></li>
+</ul>
+
+<h3>Retention:</h3>
+
+<p>RevenueCat retains purchase/entitlement records as necessary to provide the service and as required by law.</p>
+
+<p>Uninstalling the App does not cancel subscriptions and does not remove purchase records stored with Apple/RevenueCat. You can manage or cancel subscriptions here: <a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a></p>
+
+<h3>Your choices and deletion:</h3>
+
+<ul>
+  <li>Manage/cancel subscriptions in your Apple ID settings (link above).</li>
+  <li>You may request deletion of purchase data processed by RevenueCat by contacting us. Deleting such records may affect the ability to restore past purchases.</li>
+</ul>
+
+<h2>Types of data we collect:</h2>
+
+<p>Aside from the above purchase/subscription data processed via RevenueCat, we do not collect or store user data on our servers.</p>
+
+<h2>Use of Data:</h2>
+
+<ul>
+  <li>RevenueCat purchase/subscription data is used only to operate purchases, verify entitlements, restore access, provide support, and prevent fraud.</li>
+  <li>We do not use your data for advertising or tracking across third‑party apps/websites.</li>
+</ul>
+
+<h2>Data Sharing and Protection:</h2>
+
+<ul>
+  <li>We do not share personal information with any third party without your consent, unless permitted or required by law.</li>
+  <li>RevenueCat and Apple process purchase/subscription data to the extent necessary to provide the service. We take reasonable security measures to protect data.</li>
+</ul>
+
+<p><strong>Safety measures:</strong> We take reasonable security measures to protect your data from unauthorized access, disclosure or misuse.</p>
+
+<h2>Your rights:</h2>
+
+<ul>
+  <li>You have the right to access and correct your personal information.</li>
+  <li>You have the right to request the deletion of your personal information.</li>
+  <li>In certain circumstances, you have the right to restrict the processing of your personal information.</li>
+</ul>
+
+<p>As of now, other than purchase/subscription data processed by RevenueCat, we do not collect your personal information. If we collect your personal information in the future, you can exercise the above rights at any time.</p>
+
+<h2>Deleting data:</h2>
+
+<ul>
+  <li>Local data stored on your device can be deleted by uninstalling the app.</li>
+  <li>Data stored in your iCloud can be deleted in-app via "Statistics page > … > Clear data > Delete all data" or from iOS Settings > Apple ID/iCloud > Storage > Focus (or app name) > Delete data from iCloud.</li>
+  <li>Purchase/subscription records handled by Apple/RevenueCat are not deleted by uninstalling the App. To request deletion of RevenueCat records, please contact us. Cancel or manage subscriptions via: <a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a></li>
+</ul>
+
+<h2>Contact Us:</h2>
+
+<p>If you have any questions or suggestions about this Privacy Policy, please contact us.</p>
+
+<p>Please note that this Privacy Policy may be updated from time to time based on changes in laws and regulations or our business needs. The updated Privacy Policy will be posted on our website or in-app. Please review this Privacy Policy regularly for the latest information.</p>
+
+<p>Thank you for your trust and support!</p>
+
+</main>
+
+<footer class="site-footer">
+<small>
+Last updated: 2025-10-23
+</small>
+</footer>
+</body>
+</html>
+
+==========================================
+
+=== support.html ===
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サポート</title>
+<link rel="stylesheet" href="legal.css">
+</head>
+<body>
+<header class="site-header">
+<nav class="site-nav">
+<a href="index.html">ホーム</a>
+<a href="privacy.html">プライバシーポリシー</a>
+<a href="terms.html">利用規約</a>
+<a href="support.html">サポート</a>
+<a href="support_en.html">English</a>
+</nav>
+</header>
+
+<main class="container">
+<h1>サポート</h1>
+<p class="summary">
+  お問い合わせ先やヘルプ情報を案内します。
+</p>
+
+<p class="under-construction">
+  このページは作成中です。
+</p>
+
+<p>
+  <a href="mailto:35nkmr@gmail.com">メールで問い合わせる</a>
+</p>
+</main>
+
+<footer class="site-footer">
+<small>
+最終更新日: 2025-10-22
+</small>
+</footer>
+</body>
+</html>
+
+==========================================
+
+=== support_en.html ===
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support</title>
+<link rel="stylesheet" href="legal.css">
+</head>
+<body>
+<header class="site-header">
+<nav class="site-nav">
+<a href="index.html">Home</a>
+<a href="support.html">日本語</a>
+<a href="privacy_en.html">Privacy Policy</a>
+<a href="terms_en.html">Terms of Use</a>
+<a href="support_en.html">Support</a>
+</nav>
+</header>
+
+<main class="container">
+<h1>Support</h1>
+<p class="summary">
+  Contact and help information.
+</p>
+
+<p class="under-construction">
+  This page is under construction.
+</p>
+
+<p>
+  <a href="mailto:35nkmr@gmail.com">Contact by email</a>
+</p>
+</main>
+
+<footer class="site-footer">
+<small>
+Last updated: 2025-10-22
+</small>
+</footer>
+</body>
+</html>
+
+==========================================
+
+=== terms.html ===
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>利用規約</title>
+<link rel="stylesheet" href="legal.css">
+</head>
+<body>
+<header class="site-header">
+<nav class="site-nav">
+<a href="index.html">ホーム</a>
+<a href="privacy.html">プライバシーポリシー</a>
+<a href="terms.html">利用規約</a>
+<a href="support.html">サポート</a>
+<a href="terms_en.html">English</a>
+</nav>
+</header>
+
+<main class="container">
+<h1>Focus Pro サブスクリプション利用規約</h1>
+<p class="summary">
+  更新日: 2025-10-23
+</p>
+
+<h2>Apple 標準EULAとの関係</h2>
+
+<p>本規約は Apple の標準EULA（<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>）を拡張するものです。</p>
+
+<ul>
+  <li>本規約に記載がなくEULAに記載がある事項は、EULAを優先します。</li>
+  <li>EULAと本規約に矛盾がある場合、EULAに抵触しない範囲で本規約を優先します。</li>
+</ul>
+
+<h2>規約への同意</h2>
+
+<p>Focus の Pro サブスクリプション（以下「本サブスクリプション」）を購入または利用することで、本規約に同意したものとみなされます。</p>
+
+<h2>サービス内容</h2>
+
+<ul>
+  <li>本サブスクリプションの有効期間中、Focus の Pro 機能にアクセスできます。</li>
+  <li>Pro 機能の内容や提供形態は、予告なく変更または終了される場合があります。</li>
+</ul>
+
+<h2>自動更新型サブスクリプション</h2>
+
+<ul>
+  <li>本サブスクリプションは自動更新型（例：月額／年額）です。Apple による購入確定時から開始します。</li>
+  <li>現在の期間が終了する少なくとも24時間前までに解約しない限り、自動的に更新されます。</li>
+  <li>次回更新の料金は、期間終了の24時間以内にお客様のApple IDアカウントに請求されます。</li>
+  <li>アプリのアンインストール（削除）では解約になりません。</li>
+</ul>
+
+<h2>管理・解約方法</h2>
+
+<ul>
+  <li>サブスクリプションの管理・解約は、iOSの設定 > Apple ID > サブスクリプション、または <a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a> から行えます。</li>
+  <li>解約は現在の請求期間の終了時に有効となり、期間満了まではPro機能を引き続きご利用いただけます。期間途中の返金や日割り精算はありません。</li>
+</ul>
+
+<h2>無料トライアル／初回特典（提供される場合）</h2>
+
+<ul>
+  <li>無料トライアルや初回特典は、通常、同一のApple IDにつき対象製品あたり1回限りです。</li>
+  <li>期限の24時間前までに解約しない場合、トライアル終了後に自動的に有料プランへ移行し、料金が請求されます。</li>
+  <li>トライアル未使用分は、購入手続き時に失効します。</li>
+</ul>
+
+<h2>料金・価格・税金</h2>
+
+<ul>
+  <li>決済はAppleが行い、Appleが販売元（Merchant of Record）となります。当社はお客様のカード情報にアクセスしません。</li>
+  <li>実際の支払額は購入時点のAppleの購入確認画面に表示される価格に基づき、地域・通貨や適用税により異なる場合があります。</li>
+  <li>価格やプランは変更されることがあります。価格変更はAppleから通知される場合があり、次回更新分から適用されます。</li>
+</ul>
+
+<h2>提供および購入の復元</h2>
+
+<p>通常、購入完了直後にProが有効化されます。Proが有効にならない場合は、以下をお試しください。</p>
+
+<ul>
+  <li>アプリを最新バージョンに更新する</li>
+  <li>アプリ内のPro購入画面で「購入の復元（Restore）」を実行する</li>
+  <li>解決しない場合は <a href="mailto:vikestan@qq.com">vikestan@qq.com</a> までご連絡ください。Apple／RevenueCatのレシート情報に基づき確認のうえ、復元を支援します</li>
+</ul>
+
+<p>復元には、購入時と同一のApple IDでサインインしている必要があります。</p>
+
+<h2>返金</h2>
+
+<p>返金はApp Storeのポリシーに従いAppleが対応します。申請は <a href="https://reportaproblem.apple.com">https://reportaproblem.apple.com</a> から行ってください。</p>
+
+<h2>禁止事項・停止</h2>
+
+<ul>
+  <li>Proの利用は個人的かつ譲渡不可です。再販・共有・不正アクセスや回避行為は禁止します。</li>
+  <li>不正行為や本規約またはEULA違反がある場合、当社はアクセスの停止または終了を行うことがあります。</li>
+</ul>
+
+<h2>第三者サービスの利用</h2>
+
+<p>当社は、購入・権利付与・復元のためにRevenueCatを利用します。決済処理はAppleが行います。詳細は当社のプライバシーポリシーをご参照ください。</p>
+
+<h2>規約の変更</h2>
+
+<p>本規約は随時更新されることがあります。更新後に本サブスクリプションを利用する場合、変更後の規約に同意したものとみなされます。</p>
+
+<h2>お問い合わせ</h2>
+
+<p>メールアドレス：<a href="mailto:35nkmr@gmail.com">35nkmr@gmail.com</a></p>
+
+</main>
+
+<footer class="site-footer">
+<small>
+最終更新日: 2025-10-23
+</small>
+</footer>
+</body>
+</html>
+
+==========================================
+
+=== terms_en.html ===
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Use</title>
+<link rel="stylesheet" href="legal.css">
+</head>
+<body>
+<header class="site-header">
+<nav class="site-nav">
+<a href="index.html">Home</a>
+<a href="terms.html">日本語</a>
+<a href="privacy_en.html">Privacy Policy</a>
+<a href="terms_en.html">Terms of Use</a>
+<a href="support_en.html">Support</a>
+</nav>
+</header>
+
+<main class="container">
+<h1>Focus Pro Subscription Terms</h1>
+<p class="summary">
+  Update time: 2025-10-23
+</p>
+
+<h2>Relationship with Apple's Standard EULA</h2>
+
+<p>These Pro Subscription Terms extend Apple's Standard EULA: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>
+
+<ul>
+  <li>If a matter is covered by the EULA but not addressed here, the EULA controls.</li>
+  <li>If there is any conflict between these Terms and the EULA, these Terms prevail to the extent permitted by the EULA.</li>
+</ul>
+
+<h2>Acceptance</h2>
+
+<p>By purchasing or using the Focus Pro subscription (the "Pro Subscription"), you agree to these Terms.</p>
+
+<h2>Service description</h2>
+
+<ul>
+  <li>While your Pro Subscription is active, you can access Focus Pro features during the applicable subscription period.</li>
+  <li>Pro features and their availability may change or be discontinued at any time.</li>
+</ul>
+
+<h2>Auto‑renewable subscription</h2>
+
+<ul>
+  <li>Pro is offered as an auto‑renewable subscription (e.g., monthly or annual) and starts upon purchase confirmation by Apple.</li>
+  <li>The subscription automatically renews unless canceled at least 24 hours before the end of the current period.</li>
+  <li>Your Apple ID account will be charged for renewal within 24 hours prior to the end of the current period.</li>
+  <li>Uninstalling the App does not cancel your subscription.</li>
+</ul>
+
+<h2>Managing and canceling</h2>
+
+<ul>
+  <li>Manage or cancel your subscription in Apple ID settings: iOS Settings > Your Name > Subscriptions or <a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a></li>
+  <li>Cancellation takes effect at the end of the current billing period. Access continues until the current period expires. No partial refunds for the remaining period.</li>
+</ul>
+
+<h2>Free trials and introductory offers (if available)</h2>
+
+<ul>
+  <li>If a free trial or introductory offer is provided, it is typically limited to one per Apple ID per product.</li>
+  <li>If you do not cancel at least 24 hours before the trial ends, it will convert to a paid subscription and you will be charged.</li>
+  <li>Any unused portion of a free trial is forfeited when you purchase a subscription.</li>
+</ul>
+
+<h2>Payment, pricing, and taxes</h2>
+
+<ul>
+  <li>Payment is processed by Apple. Apple is the merchant of record. We do not receive your card details.</li>
+  <li>The actual price you pay is the price shown in Apple's purchase sheet at the time of confirmation and may vary by currency/region and include applicable taxes.</li>
+  <li>We may change prices and/or plans. Price increases or changes may be notified by Apple and will apply starting from the next renewal.</li>
+</ul>
+
+<h2>Delivery and restoring purchases</h2>
+
+<p>Pro access is usually unlocked immediately after successful purchase. If Pro does not unlock:</p>
+
+<ul>
+  <li>Update the App to the latest version.</li>
+  <li>In the App, tap "Restore Purchases" on the Pro purchase screen.</li>
+  <li>If the issue persists, contact us at <a href="mailto:vikestan@qq.com">vikestan@qq.com</a>. We may verify your receipt via Apple/RevenueCat and help restore access.</li>
+</ul>
+
+<p>Restoring requires you to be signed in with the same Apple ID used for the original purchase.</p>
+
+<h2>Refunds</h2>
+
+<p>Refunds are handled by Apple under App Store policies. To request a refund, visit: <a href="https://reportaproblem.apple.com">https://reportaproblem.apple.com</a></p>
+
+<h2>Restrictions and suspension</h2>
+
+<ul>
+  <li>Pro access is personal and non‑transferable. Resale, sharing, or attempts to circumvent access controls are prohibited.</li>
+  <li>We may suspend or terminate access in cases of fraud, abuse, or violation of these Terms or the EULA.</li>
+</ul>
+
+<h2>Third‑party services</h2>
+
+<p>We use RevenueCat solely to provide and manage purchases, entitlements, and restore. Payments are processed by Apple. See our Privacy Policy for details.</p>
+
+<h2>Changes to these Terms</h2>
+
+<p>We may update these Terms from time to time. Continued use after the effective date constitutes acceptance of the updated Terms.</p>
+
+<h2>Contact</h2>
+
+<p>Email: <a href="mailto:35nkmr@gmail.com">35nkmr@gmail.com</a></p>
+
+</main>
+
+<footer class="site-footer">
+<small>
+Last updated: 2025-10-23
+</small>
+</footer>
+</body>
+</html>
+
+==========================================
+
+=== legal.css ===
+/* Basic legal pages styles */
+:root {
+  color-scheme: light dark;
+  --fg: #111;
+  --bg: #fff;
+  --muted: #666;
+  --link: #0b5fff;
+  --border: #e5e5e5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg: #eee;
+    --bg: #121212;
+    --muted: #aaa;
+    --link: #72a0ff;
+    --border: #2a2a2a;
+  }
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans JP", "Hiragino Sans", "Yu Gothic UI", "YuGothic", "Helvetica Neue", Arial, sans-serif;
+  color: var(--fg);
+  background: var(--bg);
+  line-height: 1.7;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+}
+
+.site-nav {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  color: var(--link);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 24px 16px 56px;
+}
+
+h1 {
+  font-size: 1.75rem;
+  line-height: 1.25;
+  margin: 0 0 8px;
+}
+
+p.summary {
+  margin: 0 0 18px;
+  color: var(--muted);
+}
+
+.under-construction {
+  color: var(--muted);
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 16px;
+  text-align: center;
+  color: var(--muted);
+}
+
+.site-footer small {
+  font-size: 0.85rem;
+}
+
+==========================================
+
+=== style.css ===
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    text-size-adjust: none;
+    color: rgb(26, 26, 26);
+    background-color: rgb(253, 225, 0);
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+  }
+  h1 {
+    font-size: 2.1em;
+    font-family: 'Bungee Shade';
+  }
+
+  .icons {
+    display: flex;
+    font-size: 2.5em;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  a:link {
+    color: black;
+  }
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  @media (max-width: 980px) {
+    body {
+      font-size: 2em;
+    }
+}
+
+==========================================
+
