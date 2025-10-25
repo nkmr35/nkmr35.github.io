@@ -37,6 +37,9 @@ body {
   .legal-links {
     text-align: center;
   }
+  .legal-links a {
+    margin: 0 20px;
+  }
   a:link {
     color: black;
   }
