@@ -21,6 +21,7 @@ body {
   h1 {
     font-size: 2.1em;
     font-family: 'Bungee Shade';
+    text-align: center;
   }
 
   .icons {
@@ -28,6 +29,10 @@ body {
     font-size: 2.5em;
     justify-content: space-between;
     margin-top: 10px;
+  }
+  
+  .legal-links {
+    text-align: center;
   }
   a:link {
     color: black;
