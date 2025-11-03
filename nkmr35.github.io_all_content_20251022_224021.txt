@@ -1,0 +1,86 @@
+HTMLとCSSファイルの内容統合
+ディレクトリ: /Users/nkmr35/Downloads/nkmr35.github.io
+実行日時: Wed Oct 22 22:40:21 JST 2025
+==========================================
+
+=== index.html ===
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hiroto Nakamura</title>
+  <meta name="author" content="Hiroto Nakamura">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" id="favicon">
+</head>
+<body>
+  <div class="container">
+    <div>
+        <h1>nkmr35.github.io</h1>
+        <h2>Hiroto Nakamura</h2>
+        <h2>IT Consultant, Software Engineer</h2>
+      <div class="icons">
+        <a class="icon" href="https://twitter.com/nkmr35_"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/nkmr35"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/hiroto-nakamura-6895a8236/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://note.com/nkmr35"><i class="fa-solid fa-pen"></i></a>
+        <a href="https://qiita.com/nkmr35"><i class="fa-solid fa-laptop-code"></i></a>
+        <a href="mailto:35nkmr@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+==========================================
+
+=== style.css ===
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    text-size-adjust: none;
+    color: rgb(26, 26, 26);
+    background-color: rgb(253, 225, 0);
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+  }
+  h1 {
+    font-size: 2.1em;
+    font-family: 'Bungee Shade';
+  }
+
+  .icons {
+    display: flex;
+    font-size: 2.5em;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  a:link {
+    color: black;
+  }
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  @media (max-width: 980px) {
+    body {
+      font-size: 2em;
+    }
+}
+
+==========================================
+
